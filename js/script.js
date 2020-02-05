@@ -1,6 +1,6 @@
 // (function iife() {
 var swiper = new Swiper('.swiper-container', {
-  speed: window.innerHeight * 2.5,
+  speed: window.innerHeight * 1.5,
   direction: 'vertical',
   slidesPerView: 1,
   spaceBetween: 30,

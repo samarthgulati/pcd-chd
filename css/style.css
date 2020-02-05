@@ -4,9 +4,9 @@ html, body {
 }
 body.pcd-chd {
   background: #fff;
-  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-family: Raleway, Helvetica Neue, Helvetica, Arial, sans-serif;
   font-size: 14px;
-  color:#232323;
+  color:#454545 !important;
   margin: 0;
   padding: 0;
 }
@@ -20,7 +20,7 @@ body.pcd-chd {
 .pcd-chd .swiper-slide {
   font-size: 18px;
   /* color:#fff; */
-  color:#232323;
+  color:#454545 !important;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   padding: 40px 60px;
@@ -43,15 +43,15 @@ body.pcd-chd {
   opacity: 0;
 }
 .pcd-chd .swiper-slide .title {
-  font-size: 41px;
+  font-size: 1.1rem;
   font-weight: 300;
-  color:#232323;
+  color:#454545 !important;
 }
 .pcd-chd .swiper-slide .subtitle {
-  font-size: 21px;
+  font-size: 0.9rem;
 }
 .pcd-chd .swiper-slide .text {
-  font-size: 14px;
+  font-size: 0.75rem;
   max-width: 400px;
   line-height: 1.3;
 }
@@ -76,4 +76,21 @@ body.pcd-chd {
 
 .pcd-chd a {
   color: #232323;
+}
+
+.pcd-chd .content {
+  background: rgba(255,255, 255,0.8);
+  backdrop-filter: blur(5px);
+}
+
+@media only screen and (min-width: 992px)  {
+  .pcd-chd .swiper-slide .title {
+    font-size: 2.5rem;
+  }
+  .pcd-chd .swiper-slide .subtitle {
+    font-size: 1.25rem;
+  }
+  .pcd-chd .swiper-slide .text {
+    font-size: 1rem;
+  }
 }
