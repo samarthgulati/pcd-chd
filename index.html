@@ -1,52 +1,90 @@
 <!doctype html>
 <html>
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-		<title>Processing Community Day - Chandigarh</title>
-		<link rel="stylesheet" href="css/reveal.css">
-		<link rel="stylesheet" href="css/white.css">
-		<link rel="stylesheet" href="css/style.css">
-	</head>
-	<body>
-		<span class="frame"></span>
-		<div class="reveal">
-			<div class="slides">
-				<section>
-					<section data-transition="convex" data-state="first">
-						<div class="container">
-							<blockquote class="card">
-								A real work of art destroys... the separation between himself (the viewer) and the artist.
-								<p>- Leo Tolstoy</p>
-							</blockquote>	
-						</div>
-					</section>
-					<section data-transition="convex" data-state="frame-fade">
-						<div class="container">
-							<p class="card">What if we break the boundaries further?</p>
-						</div>
-					</section>
-					<section data-transition="convex" data-state="interact">
-						<div class="container">
-							<p class="card">So that the viewer could be the artist?</p>
-						</div>
-					</section>
-					<section data-transition="convex">
-						<div class="container">
-							<p class="card">Come and learn to build interactive art at Processing Day, Chandigarh</p>
-						</div>
-					</section>
-				</section>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<link rel="stylesheet" href="css/swiper.min.css">
+	<link rel="stylesheet" href="css/style.css">
+	<title>Processing Community Day - Chandigarh</title>
+</head>
+
+<body class="pcd-chd">
+	<!-- Swiper -->
+	<div class="swiper-container">
+    <!-- <canvas class="parallax-bg" id="canvas" data-swiper-parallax="-23%"></canvas> -->
+		<div class="parallax-bg" data-swiper-parallax="-5%"></div>
+		<div class="swiper-wrapper">
+			<div class="swiper-slide" data-hash="graphic">
+				<div class="title" data-swiper-parallax="-300">
+          Have you ever wondered how such precise yet life-like graphics are made?
+        </div>
+				<!-- <div class="subtitle" data-swiper-parallax="-200">Subtitle</div> -->
+				<!-- <div class="text" data-swiper-parallax="-100">
+					<p>Have you ever wondered how such precise yet life-like graphics are made?</p>
+				</div> -->
+			</div>
+			<div class="swiper-slide" data-hash="animate">
+				<div class="title" data-swiper-parallax="-300" data-swiper-parallax-opacity="0">
+          Which sometimes even move and animate?
+        </div>
+				<!-- <div class="subtitle" data-swiper-parallax="-200">Subtitle</div> -->
+				<!-- <div class="text" data-swiper-parallax="-100">
+					<p>Which sometimes even move and animate?</p>
+				</div> -->
+			</div>
+			<div class="swiper-slide" data-hash="interact">
+				<div class="title" data-swiper-parallax="-300">
+          Or even interact with user’s input?
+        </div>
+				<!-- <div class="subtitle" data-swiper-parallax="-200">Subtitle</div> -->
+				<!-- <div class="text" data-swiper-parallax="-100">
+					<p>Or even interact with user’s input?</p>
+				</div> -->
+      </div>
+      <div class="swiper-slide" data-hash="register">
+				<div class="title" data-swiper-parallax="-300">
+          Processing Community Day
+        </div>
+				<div class="subtitle" data-swiper-parallax="-200">Chandigarh</div>
+				<div class="text" data-swiper-parallax="-100">
+					<p>Learn to create graphics and animations with computers - <em>no prior coding experience required!</em> Join us at Chandigarh’s first Processing Community Day - a half a day workshop on how to use Processing (p5js), one of the most popular computer graphics coding library, to make the visuals shown above and more! </p>
+          <p> <b>When:</b> 29th Feb, 2020 - 3:30PM to 6:30PM </p>
+          <p> <b>Where:</b> <a href="https://goo.gl/maps/9EaSc3Pey6u6fTQs5">Aura Farm, Kurali Chandigarh Rd, Punjab 140110</a></p>
+          <button>
+            <a href="https://rzp.io/l/BbeYhXV" target="_blank">Register Now</a>
+          </button>
+				</div>
+      </div>
+      <div class="swiper-slide" data-hash="overview">
+				<div class="title" data-swiper-parallax="-300">
+          Workshop
+        </div>
+				<div class="subtitle" data-swiper-parallax="-200">Overview</div>
+				<div class="text" data-swiper-parallax="-100">
+          <p>We will start from the basics - on how to draw simple shapes and gradually move towards drawing organic forms, animation, and interaction in a fun and engaging way. By the end of the workshop you would have acquired skills that you can then apply to:</p>
+          <ul>
+            <li>create abstract art masterpieces </li>
+            <li>design info-graphics and custom interactions for websites </li>
+            <li>computationally design patterns for fabrics</li>
+            <li>iterate over design ideas for architectural installations</li>
+          </ul>
+          <p>Also, you will get to take home a framed print out of your creation.</p>
+          <button>
+            <a href="https://rzp.io/l/BbeYhXV" target="_blank">Register Now</a>
+          </button>
+				</div>
 			</div>
 		</div>
-		<script src="js/reveal.js"></script>
-		<script src="js/ogl.mjs" type="module"></script>
-    <script src="js/script.mjs" type="module"></script>
-		<script>
-			Reveal.initialize({
-				progress: false
-			});
-		</script>
-	</body>
+		<!-- Add Pagination -->
+		<div class="swiper-pagination"></div>
+  </div>
+  <script src="js/p5.min.js"></script>
+  <script src="js/static.js"></script>
+  <script src="js/anim.js"></script>
+  <script src="js/interactive.js"></script>
+	<script src="js/swiper.min.js"></script>
+	<script src="js/script.js"></script>
+</body>
+
 </html>
