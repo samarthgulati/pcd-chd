@@ -15,7 +15,7 @@ var static = function(s) {
     for(var d = 0; d < 360; d+=1) {
       s.fill(
         s.map(d, 0, 360, 0, 100), //map(d, 0, 360, 0, 60), 
-        50, 
+        70, 
         100, //map(d, 0, 360, 100, 60), 
         10
       );

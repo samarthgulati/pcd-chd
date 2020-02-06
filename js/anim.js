@@ -7,13 +7,13 @@ var anim = function(s) {
   s.setup = function() {
     var cvs = s.createCanvas(window.innerWidth, window.innerHeight);
     cvs.parent(document.body.querySelector('.parallax-bg'));
-    cvs.elt.classList.add('hidden');
+    cvs.elt.classList.add('invisible');
     s.noStroke();
     s.colorMode(s.HSB, 100);
     s.angleMode(s.DEGREES);
   }
   s.draw = function () {
-    s.background(100, 1);
+    s.background(100, 2);
     s.translate(xCenter, yCenter);
     s.rotate(s.frameCount/360);
     const d = s.frameCount % 360;
