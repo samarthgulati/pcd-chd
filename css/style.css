@@ -153,6 +153,29 @@ body.pcd-chd {
   }
 }
 
+.pcd-chd .bio img {
+  float:right;
+  height: 30vw;
+  width: 30vw;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.pcd-chd .samples ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+}
+
+.pcd-chd .samples ul img {
+  width: 20vw;
+  border-radius: 0.25rem;
+  box-shadow: 0 0 0.25rem rgba(0,0,0,0.15);
+  margin: 0.25rem;
+}
+
 @media only screen and (min-width: 768px)  {
   .pcd-chd .swiper-slide .title {
     font-size: 2.5rem;
