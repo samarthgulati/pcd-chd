@@ -170,7 +170,8 @@ body.pcd-chd {
 }
 
 .pcd-chd .samples ul img {
-  width: 20vw;
+  background: white;
+  width: 28.5vw;
   border-radius: 0.25rem;
   box-shadow: 0 0 0.25rem rgba(0,0,0,0.15);
   margin: 0.25rem;
@@ -188,5 +189,18 @@ body.pcd-chd {
   }
   .pcd-chd a#next {
     display: inline-block !important;
+  }
+  .pcd-chd .samples ul img {
+    width: 20vw;
+  }
+  .pcd-chd .bio img {
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    left: 500px;
+    border-radius: 5%;
+  }
+  .pcd-chd .content {
+    background: rgba(255,255, 255,0.6);
   }
 }
