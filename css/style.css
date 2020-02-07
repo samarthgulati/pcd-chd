@@ -11,6 +11,28 @@ body.pcd-chd {
   margin: 0;
   padding: 0;
 }
+
+.pcd-chd #auralink {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  /* box-shadow: 0 0 0.25rem rgba(0,0,0,0.15); */
+  padding-right: 0.5rem;
+  border-radius: 0.125rem;
+  margin: 0.25rem;
+  opacity: 0.8;
+  transition: opacity 200ms ease-in;
+}
+
+.pcd-chd #auralink:hover {
+  opacity: 1;
+}
+
+.pcd-chd #auralink > img { 
+  width: 2.5rem;
+}
+
 .pcd-chd .swiper-container {
   width: 100%;
   height: 100%;
@@ -202,5 +224,15 @@ body.pcd-chd {
   }
   .pcd-chd .content {
     background: rgba(255,255, 255,0.6);
+  }
+  .pcd-chd #auralink > img { 
+    width: 4rem;
+  }
+  .pcd-chd .swiper-slide .text {
+    line-height: 1.4;
+  }
+
+  .pcd-chd .swiper-slide {
+    padding: 60px 80px;
   }
 }
